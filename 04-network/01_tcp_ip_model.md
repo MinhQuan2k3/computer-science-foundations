@@ -37,3 +37,8 @@ Client                                  Server
   | <--- SYN-ACK (Seq = y, Ack = x + 1) - |  (Server đồng ý và phản hồi)
   |                                       |
   | -------- ACK (Ack = y + 1) ---------> |  (Client xác nhận -> Kết nối ESTABLISHED)
+```
+
+- SYN: Client gửi gói tin SYN mang số thứ tự khởi tạo (`Seq = x`).
+- SYN-ACK: Server nhận SYN, phản hồi bằng SYN-ACK (`Ack = x + 1`, `Seq = y`).
+- ACK: Client xác nhận lại với Server (`Ack = y + 1`). Kết nối chính thức được tạo.
