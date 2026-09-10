@@ -30,7 +30,7 @@
 
 ## Cơ cấu một HTTP Request & Response
 
-HTTP Request
+### HTTP Request
 
 ```text
 GET /users/123 HTTP/1.1
@@ -46,7 +46,7 @@ Authorization: Bearer eyJhbGciOi...
 - Headers: Metadata (`Host`, `User-Agent`, `Content-Type`, `Authorization`).
 - Body: Dữ liệu gửi lên (Thường dùng cho `POST`/`PUT`).
 
-HTTP Response
+### HTTP Response
 
 ```text
 HTTP/1.1 200 OK
