@@ -18,4 +18,4 @@
 - [x] Recursive Binary Search
 - [x] Complexity summary
 - [x] CMake build configuration
-- [ ] Warning-focused compiler flags
+- [x] Warning-focused compiler flags
