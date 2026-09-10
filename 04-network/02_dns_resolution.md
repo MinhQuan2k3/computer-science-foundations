@@ -27,3 +27,12 @@ Khi bạn gõ `https://example.com` trên trình duyệt:
               ├── 5. Hỏi Authoritative Server ---------> Trả về IP chuẩn: 93.184.216.34
               │
               └── 6. Cache lại IP & Trả về cho Trình duyệt
+```
+---
+## Các bản ghi DNS căn bản (DNS Record Types)
+
+- A Record: Ánh xạ Tên miền --> Địa chỉ IPv4.
+- AAAA Record: Ánh xạ Tên miền --> Địa chỉ IPv6.
+- CNAME (Canonical Name): Trỏ một tên miền alias về một tên miền khác (ví dụ: `[www.example.com](https://www.example.com`) --> `example.com`).
+- MX Record (Mail Exchange): Chỉ định Server xử lý email cho tên miền.
+- TXT Record: Lưu dữ liệu dạng văn bản (dùng xác minh chủ sở hữu tên miền, SPF/DKIM chống spam).
