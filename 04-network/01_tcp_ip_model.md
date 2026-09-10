@@ -1,4 +1,4 @@
-# 01. Mô hình TCP/IP (TCP/IP Model)
+# Mô hình TCP/IP (TCP/IP Model)
 
 Mô hình TCP/IP là tập hợp các giao thức truyền thông dùng để kết nối các thiết bị mạng trên Internet.
 
