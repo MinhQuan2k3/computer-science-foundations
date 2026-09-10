@@ -1,1 +1,21 @@
+# Phase 1 Completion Checklist
 
+- [x] Array
+- [x] Linked List
+- [x] Stack
+- [x] Queue
+- [x] Hash Table
+- [x] Binary Search Tree
+- [x] Graph + BFS/DFS
+- [x] Big O notes
+- [x] Bubble Sort
+- [x] Selection Sort
+- [x] Insertion Sort
+- [x] Merge Sort
+- [x] Quick Sort
+- [x] Linear Search
+- [x] Iterative Binary Search
+- [x] Recursive Binary Search
+- [x] Complexity summary
+- [x] CMake build configuration
+- [x] Warning-focused compiler flags
