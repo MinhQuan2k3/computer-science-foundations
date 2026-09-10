@@ -1,0 +1,26 @@
+cmake_minimum_required(VERSION 3.16)
+project(phase1_dsa LANGUAGES CXX)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+
+if (MSVC)
+    add_compile_options(/W4 /permissive-)
+else()
+    add_compile_options(-Wall -Wextra -Wpedantic -Wconversion -Wshadow)
+endif()
+
+function(add_demo name source)
+    add_executable(${name} ${source})
+endfunction()
+
+add_demo(array_demo 01-data-structures-algorithms/arrays/array_demo.cpp)
+add_demo(linked_list_demo 01-data-structures-algorithms/linked-list/singly_linked_list.cpp)
+add_demo(stack_demo 01-data-structures-algorithms/stack/stack.cpp)
+add_demo(queue_demo 01-data-structures-algorithms/queue/queue.cpp)
+add_demo(hash_table_demo 01-data-structures-algorithms/hash-table/hash_table.cpp)
+add_demo(bst_demo 01-data-structures-algorithms/tree/bst.cpp)
+add_demo(graph_demo 01-data-structures-algorithms/graph/graph.cpp)
+add_demo(sorting_demo 01-data-structures-algorithms/sorting/sorting.cpp)
+add_demo(searching_demo 01-data-structures-algorithms/searching/searching.cpp)
