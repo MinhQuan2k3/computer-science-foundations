@@ -24,4 +24,4 @@ Trước khi truyền dữ liệu HTTP, HTTPS thực hiện TLS Handshake để 
 5. **Decryption:** Server dùng **Private Key** của mình để giải mã lấy Session Key.
 6. **Encrypted Communication:** Từ thời điểm này, mọi dữ liệu HTTP truyền qua lại đều được mã hóa bằng **Session Key (Khóa đối xứng)** để tối ưu tốc độ.
 
-> **Key takeaway:** HTTPS kết hợp Mã hóa bất đối xứng (Public/Private Key) để trao đổi khóa an toàn, sau đó dùng Mã hóa đối xứng (Session Key) để truyền dữ liệu thực tế.
+**Key takeaway:** HTTPS kết hợp Mã hóa bất đối xứng (Public/Private Key) để trao đổi khóa an toàn, sau đó dùng Mã hóa đối xứng (Session Key) để truyền dữ liệu thực tế.
