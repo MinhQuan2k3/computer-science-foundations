@@ -31,8 +31,6 @@ Mỗi thư mục chủ đề chỉ chứa đúng một file Java như cấu trú
 ## Yêu cầu môi trường
 
 - Java JDK 17 trở lên
-- `javac`
-- `java`
 
 ## Tiêu chuẩn code
 
