@@ -10,6 +10,14 @@ Tổng hợp các kiến thức cốt lõi về Cơ sở dữ liệu quan hệ (
 - `transaction/`: Điều khiển luồng giao dịch với `BEGIN TRANSACTION`, `COMMIT`, `ROLLBACK` và `SAVEPOINT`.
 - `acid/`: Minh họa 4 thuộc tính nguyên tử của RDBMS: **A**tomicity, **C**onsistency, **I**solation, **D**urability.
 
+## Thứ tự chạy SQL
+
+1. sql
+2. normalization
+3. index
+4. transaction
+5. acid
+
 ## SQL vs NoSQL
 
 | Tiêu chí | SQL (Relational) | NoSQL (Non-Relational) |
