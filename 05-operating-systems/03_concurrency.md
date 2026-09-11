@@ -7,6 +7,7 @@ Concurrency cho phép ứng dụng xử lý nhiều công việc cùng một lú
 ## 1. Race Condition & Critical Section
 
 **Critical Section**: Đoạn code truy cập vào tài nguyên dùng chung (Shared Resource: biến toàn cục, file, DB).
+
 **Race Condition**: Xảy ra khi nhiều Thread cùng truy cập và thay đổi tài nguyên dùng chung đồng thời, làm cho kết quả cuối cùng phụ thuộc vào thứ tự thực thi ngẫu nhiên của các Thread.
 
 ### Ví dụ Race Condition:
@@ -23,10 +24,12 @@ Thread B: Đọc Count = 10 ──> Tăng thành 11 ──> Ghi lại Count = 11
 Để đảm bảo tính Mutual Exclusion (Độc quyền truy cập) trong Critical Section, hệ điều hành có các cơ chế đồng bộ sau:
 
 A. Mutex (Mutual Exclusion Lock): Hoạt động như một chiếc chìa khóa. Chỉ duy nhất 1 Thread nắm giữ Mutex mới được vào Critical Section. Các Thread khác phải chờ cho đến khi Mutex được Release.
+
 B. Semaphore
 - Là một biến đếm (Counter) dùng để giới hạn số lượng Thread truy cập vào tài nguyên cùng lúc.
 - **Counting Semaphore**: Cho phép tối đa N Thread cùng truy cập (ví dụ: Database Connection Pool).
 - **Binary Semaphore**: Đếm từ 0 đến 1 (tương tự Mutex nhưng không có khái niệm Ownership).
+
 C. Spinlock
 - Thread chờ sẽ liên tục vòng lặp kiểm tra Lock (Busy Waiting) thay vì rơi vào trạng thái Sleep/Blocked.
 - Được sử dụng khi thời gian chờ cực ngắn để tránh chi phí Context Switch.
