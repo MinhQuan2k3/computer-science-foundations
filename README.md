@@ -44,18 +44,7 @@ Computer Science concepts and practical implementations.
 - Memory
 - Concurrency
 
-### 6. Git
-- Branch
-- Merge
-- Rebase
-- Conflict Resolution
-
-### 7. Linux Command Line
-
-### 8. Debugging
-
-## Goal
-
-This repository documents my process of reviewing
-Computer Science fundamentals through theory,
-implementation, problem solving and practical projects.
+### 6. Tools and Skills
+- Git
+- Linux Command Line
+- Debugging
