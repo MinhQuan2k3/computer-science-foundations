@@ -383,7 +383,7 @@ git push
 
 but also **when to use branching, merging, conflict resolution, rebase, reset, and revert**.
 
-For this project, the core Git workflow is:
+The core Git workflow:
 
 ```text
 Branch
