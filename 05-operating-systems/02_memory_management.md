@@ -28,6 +28,15 @@ Hệ điều hành quản lý bộ nhớ để đảm bảo tính an toàn, hi�
 
 ## 2. Stack vs Heap Memory
 
+| Tiêu chí | Stack Memory |	Heap Memory |
+| :--- | :--- | :--- |
+| **Cách quản lý** | Tự động bởi CPU/Compiler (LIFO) | Thủ công bởi Lập trình viên / Garbage Collector |
+| **Tốc độ** | Rất nhanh | Chậm hơn Stack |
+| **Kích thước** | Giới hạn (Vài MB, dễ gây Stack Overflow) | Tùy thuộc vào dung lượng RAM/Virtual Memory khả dụng |
+| **Phân mảnh** | Không bị phân mảnh | Dễ bị phân mảnh bộ nhớ (Fragmentation) |
+
+---
+
 ## 3. Bộ nhớ ảo (Virtual Memory) & Paging
 
 **Virtual Memory** là kỹ thuật tạo ra một không gian địa chỉ bộ nhớ ảo liên tục cho mỗi Process, tách biệt hoàn toàn với RAM vật lý.
