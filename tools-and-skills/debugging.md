@@ -1,6 +1,6 @@
 # Debugging
 
-Debugging là quá trình tìm nguyên nhân, xác định vị trí và sửa lỗi trong chương trình.
+Debugging là quá trình tìm ra nguyên nhân, xác định vị trí và sửa lỗi trong chương trình.
 
 Mục tiêu không chỉ là "sửa cho chạy được", mà là **thu hẹp phạm vi lỗi một cách có hệ thống**.
 
@@ -30,9 +30,7 @@ Sửa lỗi
 Test lại
 ```
 
-Nguyên tắc quan trọng:
-
-> Không đoán mò và sửa ngẫu nhiên. Hãy thu hẹp phạm vi lỗi từng bước.
+**Nguyên tắc quan trọng**: Không đoán mò và sửa ngẫu nhiên. Hãy thu hẹp phạm vi lỗi từng bước.
 
 ---
 
@@ -262,9 +260,7 @@ Phù hợp khi:
 - Cần theo dõi flow của chương trình
 - Cần kiểm tra từng bước thực thi
 
-Nguyên tắc:
-
-> Dùng debugger để điều tra flow và state; dùng logging để quan sát behavior của application.
+**Nguyên tắc**: Dùng debugger để điều tra flow và state; dùng logging để quan sát behavior của application.
 
 ---
 
@@ -422,4 +418,4 @@ Debugging tốt cần:
 - Không phụ thuộc vào `console.log` / `System.out.println()` tràn lan
 - Luôn kiểm tra lại sau khi sửa lỗi
 
-> **Debugging is not guessing where the bug is. It is systematically narrowing down where the bug must be.**
+**Debugging không phải là đoán xem lỗi nằm ở đâu. Đó là quá trình thu hẹp phạm vi một cách có hệ thống để xác định vị trí chính xác của lỗi.**
