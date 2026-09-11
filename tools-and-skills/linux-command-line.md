@@ -1,4 +1,4 @@
-# Linux / Unix Basic Commands
+# Linux / Unix Command Line
 
 Linux/Unix command line allows developers to interact with the operating system using commands instead of a graphical interface.
 
